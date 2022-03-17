@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'Share Tech Mono', monospace;
+    background-color: whitesmoke;
+    margin: 0;
+}
+
+#main_nav {
+    background-color:#1d3557;
+    padding: 1rem;
+
+}
+
+nav {
+    float: right;
+
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 6rem;
+    margin-top: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+#subtitle_home {
+    color: yellow;
+    margin-left: 2rem;
+}
+
+#rig{
+    width: 25rem;
+    border-radius: 1rem;
+    /* margin-left: 4rem; */
+
+}
+
+.container__2 {
+    text-align: left;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    margin-left: 2rem;
+    color: whitesmoke;
+}
+
+.title_1, .title_2, .title_3 {
+    text-transform: uppercase;
+    font-size: 130%;
+    margin-top: 4rem;
+}
+
+.title_1 {
+    font-size: 22px;
+    margin-left: 4rem;
+}
+
+.service2, .service3 {
+    color: rgb(146, 145, 145);
+}
+
+.survey {
+    background-color: #94d2bd;
+
+    width: 30%;
+    text-align: center;
+    padding: 0.5rem;
+    padding-bottom: 1.5rem;
+    border-radius: 10px;
+}
+
+#txt-rig {
+ background-color: #e9d8a6;  
+ width: 30%;
+ padding: 2rem;
+}
+
+.flex-survey {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#survey {
+    font-size: 110%;
+}
+
+#service1 {
+    width: 80%;
+    padding-bottom: 2rem;
+    margin-left: 4rem;
+}
+
+.navbar a {
+    font-size: 20px;
+    position: relative;
+    top: 1rem;
+    color: white;
+}
+
+/* footer{
+    text-align: center;
+    position: relative;
+    bottom: 10rem;
+} */
+
+.service1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+.service1-1{
+    background-color: #e9d8a6;
+    width: 50%;
+}
+
+
+.service1E{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+
+
+
+
+
+
+/* 2DA PARTE ################### TOKEN EXCHANGE  */
+
+
+:root{
+    --primary-color: whitesmoke; 
+    --button-get-color: #FBCA1F;
+    --subtitle-back: /*#98c1d9*/ #66e0be;
+}
+
+
+/* button hacer la compra */
+button {
+    background: var(--button-get-color);
+    font-family: inherit;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+   }
+   
+   button:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+   }
+   
+   button:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+   }
+/* fin boton  */
+
+
+.logo-brand{
+    width: 11%;
+    border-radius: 50%;
+}
+
+.tituloE {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.tkn-balance {
+    font-size: 120%;
+    text-transform: uppercase;
+    margin-left: 5rem;
+    font-weight: bolder;
+    text-shadow: 1px 1px rgb(190, 171, 190);
+}
+
+#tkn-input {
+    width: 3rem;
+    height: 2rem;
+}
+
+.containerE{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+    padding-bottom: 3rem;
+}
+
+#tkn-return {
+    width: 24rem;
+}
+
+.txt-green {
+    color: rgb(62, 170, 62);
+}
+
+h4{
+    background-color: var(--subtitle-back);
+    width: fit-content;
+    padding: 0.2rem 0.8rem;
+    border-radius: 3px;
+}
+
+.md-container{
+    padding-bottom:2rem ;
+}
+
+
+footer{
+    display: flex; 
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 2rem;
+
+}
+
+footer p {
+    margin-right: 1rem;
+    color: gray;
+    font-size: 80%;
+}
+
+#img-green {
+width: 10%;
+}
+
+
+.pago-con{
+    display: flex;
+    align-items: center;
+}
+
+#dropdown {
+    height: 2rem;
+    color: gray;
+}
+
+#dropdown-title{
+    margin-right: 0.5rem;
+}
+
+
+.wallet-icon{
+    display: flex;
+    align-items: center;
+}
+
+.icon-tabler-wallet{
+    margin-right: 5px;
+}
+
+
+
+
+
+

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Company</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- <script src="js/main.js" async></script> -->
+    <!-- <script src="/js/DOM.js" async></script> -->
+    <script src="/js/DesafioEventos.js" async></script>
+</head>
+
+<body>
+
+    <div id="main_nav">
+    <nav class="navbar">
+        <ul>
+            <li ><a class="lista" href="#home">Home</a></li>
+            <li ><a class="lista" href="#services">Services</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <header id="home">
+            <h1>Welcome to Blockchain Company</h1>
+            <p id="subtitle_home">We have different services</p>
+        </header>
+    </div>
+    </div>
+<!-- FIRST SERVICE -->
+
+    <div class="container__2">
+
+        <div id="services">
+            <div class="service1">
+                <div class="service1-1">
+                    <h2 class="title_1">mining rigs configuration</h2>
+                    <p id="service1">A Rig is a piece of computer hardware who does cryptomining, and it can contain a maximum of 6 GPUs</p>
+                </div>
+
+                    <img id="rig" src="/img/rig-structure.png" alt="rig">
+                
+            </div> 
+            
+                <!-- FORMULARIO -->
+
+            <div class="flex-survey">
+            <div class="survey">
+                <h5 id="survey">Fill up this survey form to see:</h5>
+                    <h5 id="survey">1) Cost 2) Expected profit</h5>
+                <form id="survey__form">
+                <label id="name-label" for="name">Name:</label>
+                    <input 
+                    id="name" 
+                    type="text" 
+                    placeholder="Enter your name"
+                    required
+                    />
+                <br> 
+                <label id="email-label" for="email">Email:</label>
+                <input 
+                    id="email"
+                    type="email"
+                    placeholder="Enter your email"
+                    required
+                    />
+                 <br>
+                
+                 <div class="option1">
+                    <p id="dropdown__title">Which GPU model do you want to buy?</p>
+                    <select id="dropdown" required>
+                        <option disable selected value>Select your preference</option>
+                        <option value="2060">Nvidia 2060 - 1 USD per day</option>
+                        <option value="3060">Nvidia 3060 - 3 USD per day</option>
+                        <option value="3070">Nvidia 3070 - 4 USD per day</option>
+                        <option value="3080">Nvidia 3080 - 5 USD per day</option>
+                        <option value="3090">Nvidia 3090 - 6 USD per day</option>
+                    </select>
+                 </div>
+                 <br>
+                 <div class="option2">
+                    <select id="gpu" required>
+                        
+                       <option disable selected value>How many GPUs? Max: 6</option>
+<br>
+<br>
+                    <option value="1">1</input>
+                    <option value="2">2</input>
+                     <option value="3">3</input>
+                     <option value="4">4</input>
+                     <option value="5">5</input>
+                     <option value="6">6</input>  
+                     </select>
+                 </div>              
+<br>
+
+                    <button id="submit" type="submit">Submit</button>
+                </form>
+            </div>
+
+     <div id="txt-rig">
+        <p class="txt-rig">You can customize your mining rig by choosing GPU model and how many. The more GPU, more power and more profit.</p>
+        <p class="txt-rig">Find out the price and the profit of your choosen rig...</p>
+        <P class="txt-rig">And start mining now!</P>
+     </div>
+    </div>
+     </div>
+
+
+<!-- PARTE TOKEN EXCHANGE  ######################-->
+    
+<div class="service1E">
+    <div class="service1-1">
+        <h2 class="title_1">Create a token for your product</h2>
+        <p id="service1">We transform your products into tokens. Having a token that your clients can purchase gives you some advantages: Innovation, liquidity and security.</p>
+        <p id="service1">Clients wil be able to buy and sell your token like this:</p>
+    </div>
+
+    <img id="rig" src="/img/401.jpg" alt="rig">
+</div>
+
+
+    <header class="title-brand">
+        <h2 class="tituloE">Your Company name</h2>
+    </header>
+
+
+    <div class="tkn-balance">
+        <h3>Balance de tokens disponibles: 50 TKN</h3>
+    </div>
+
+
+<!-- PRIMERA COLUMNA - COMPRAR TOKENS -->
+
+
+<div class="containerE">
+
+    <div class="tkn-purch">
+        <h4>Solicitá la compra de TKN tokens</h4>
+
+        <div class="md-container">  
+            <label id="number-label" for="cantidad">1) Cantidad: </label>
+            <input 
+                id="tkn-input"
+                type="number"
+                placeholder="TKN"
+                min="1"
+                max="100"
+                />
+        
+            <div class="pago-con">
+                <p id="dropdown-title">2) Token de pago:</p>
+                <select id="dropdown" required>
+                    <option disable selected value>Pago con</option>
+                    <option value="usdt">USDT</option>
+                    <option value="dai">DAI</option>
+                    <option value="busd">BUSD</option>
+                </select>    
+            </div>
+
+            <label id="depo-label" for="depo">3) Donde recibir tus fondos:</label>
+            <input 
+                id="tkn-return" 
+                type="text" 
+                placeholder="Ingresá tu wallet"
+                required
+                />
+
+            <p>Total: </p>
+
+        </div>
+
+
+        <p>Enviá tu pago a la siguiente dirección</p>
+        <p class="wallet-icon"> <svg xmlns="http://www.w3.org/2000/svg" class="icon-tabler-wallet" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M17 8v-3a1 1 0 0 0 -1 -1h-10a2 2 0 0 0 0 4h12a1 1 0 0 1 1 1v3m0 4v3a1 1 0 0 1 -1 1h-12a2 2 0 0 1 -2 -2v-12" />
+            <path d="M20 12v4h-4a2 2 0 0 1 0 -4h4" />
+          </svg> Wallet Empresa:</p>
+        <p>0xf8cf97e815697c2e099b26f83fc4624b1w28af9e375e3ea331ddfeff81245322</p>
+
+        <p>Una vez enviado, confirmá debajo</p>
+        <div class="btn-purch">
+            <button>Confirmar compra</button>
+        </div>
+        <p class="txt-green">Tu confirmación fue enviada con éxito!</p>
+    </div>
+
+ <!-- SEGUNDA COLUMNA - RETIRAR TOKENS  -->
+
+    <div class="tkn-purch">
+
+        <h4>Solicitá la venta de TKN tokens</h4>
+
+        <div class="md-container">
+            <label id="quant-label" for="quant">1) Cantidad: </label>
+            <input 
+             id="tkn-input"
+             type="number"
+             placeholder="NAR"
+             min="1"
+             max="100"
+             />
+
+            <div class="pago-con">
+                <p id="dropdown-title">2) Token de pago:</p>
+                    <select id="dropdown" required>
+                        <option disable selected value>Pago con</option>
+                        <option value="usdt">USDT</option>
+                    </select>    
+            </div>
+
+            <label id="depo-label" for="depo">3) Donde recibir tus fondos:</label>
+            <input 
+                id="tkn-return" 
+                type="text" 
+                placeholder="Ingresá tu wallet"
+                required
+                />
+
+    
+            <p>Total: </p>
+
+        </div>
+             
+        <p>Enviá TKN tokens a la siguiente dirección</p>
+            <p class="wallet-icon"> <svg xmlns="http://www.w3.org/2000/svg" class="icon-tabler-wallet" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M17 8v-3a1 1 0 0 0 -1 -1h-10a2 2 0 0 0 0 4h12a1 1 0 0 1 1 1v3m0 4v3a1 1 0 0 1 -1 1h-12a2 2 0 0 1 -2 -2v-12" />
+                <path d="M20 12v4h-4a2 2 0 0 1 0 -4h4" />
+              </svg>Wallet Empresa:</p>
+            <p>0F2xhffcb26f83fc8624b1f97e815697c2e099028af9e37feff812453225e3ea331dd</p>
+        
+        <p>Una vez enviado, confirmá debajo</p>
+        <div class="btn-return">
+            <button>Confirmar venta</button>
+        </div>
+        <p class="txt-green">Tu confirmación fue enviada con éxito!</p>
+    </div>
+</div>
+
+
+
+    <footer class="footer">
+        <h3>Thank you for visiting us</h3>
+    </footer>
+    
+</body>
+</html>
